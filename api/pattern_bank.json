@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "patterns": [
+    {
+      "id": "P-JGB-001",
+      "name": {
+        "fr": "Retournement interrogatif",
+        "en": "Interrogative reversal",
+        "de": "Fragende Umkehrung",
+        "es": "Inversión interrogativa",
+        "zh": "追问式反转",
+        "ja": "問いによる反転"
+      },
+      "source": "Par-delà bien et mal, aphorisme 1",
+      "siglum": "JGB-1",
+      "moves": [
+        "Repérer une affirmation centrale ou une valeur tenue pour acquise dans le texte soumis.",
+        "Faire apparaître une difficulté réelle ou une question qui déstabilise cette évidence.",
+        "Retourner l'examen vers les présupposés, le désir ou l'intérêt qui soutiennent cette affirmation.",
+        "Passer de la question de l'origine à celle de la valeur, puis éprouver la possibilité inverse.",
+        "Laisser ouverte la tension qui en résulte, sans verdict réconciliateur ni conclusion artificiellement définitive."
+      ]
+    }
+  ]
+}
