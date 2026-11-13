@@ -26,7 +26,13 @@ A pattern borrows an organization of thought, not the source passage's doctrine 
 
 ### Bank size and validation
 
-The working estimate is 20–30 candidates, with 12–15 validated patterns as a possible first useful bank. These are estimates, not quotas. Merge near-duplicates and keep under-sourced ideas in a candidate state. The repository currently documents one explicit pattern, `P-JGB-001`, from *Beyond Good and Evil* §1. Automatic matching of an incoming text to the best pattern is not implemented in this snapshot.
+**Working target set by François on 10 November 2026: at least 200–300 distinct, source-grounded thought mechanisms across Nietzsche's works.** The previous estimate of 20–30 candidates / 12–15 validated patterns is superseded. Begin at paragraph level across the complete works in the eKGWB library; keep each mechanism linked to its exact work and section. Do not merge variants merely to keep the bank small. First document the passage's actual sequence of thought, then compare entries and identify genuine repetitions, families, and exceptions.
+
+The first inventory pass covers the 33 full-text entries downloaded from Nietzsche Source: published works, private publications, authorized manuscripts, and posthumous writings. The corpus inventory currently records 6,788 paragraph locations across these entries. The selected TextGrid TEI files are supplementary and may contain duplicate editions; neither they nor the eKGWB work entries constitute the complete correspondence or complete posthumous-fragment corpus. Every proposed mechanism remains a candidate until its passage has been read in context and its distinctiveness assessed.
+
+For each candidate, record: stable ID; exact eKGWB siglum and section (and paragraph within that section where needed); work category; a concise paraphrase of the thought sequence; the function the sequence performs; what problem or material it can handle; boundary conditions; related candidates; and validation status. The eventual response system may match a generated reply to one or more mechanisms and attach a precise source note. It must say whether the mechanism guided drafting or was matched afterward.
+
+The current runtime bank still contains one explicit pattern, `P-JGB-001`, from *Beyond Good and Evil* §1. The 200–300 target is the research corpus to build; it does not mean activating hundreds of patterns in the live selector before they have been reviewed. Automatic matching of an incoming text to the best pattern is not implemented in this snapshot.
 
 ### Evaluation questions
 
