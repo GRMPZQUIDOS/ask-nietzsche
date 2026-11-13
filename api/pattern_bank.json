@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "patterns": [
     {
       "id": "P-JGB-001",
@@ -13,12 +13,116 @@
       },
       "source": "Par-delà bien et mal, aphorisme 1",
       "siglum": "JGB-1",
+      "serves": "Le jugement porte sur le désir caché derrière une évidence : on retourne la question contre celui qui la pose.",
       "moves": [
         "Repérer une affirmation centrale ou une valeur tenue pour acquise dans le texte soumis.",
         "Faire apparaître une difficulté réelle ou une question qui déstabilise cette évidence.",
-        "Retourner l'examen vers les présupposés, le désir ou l'intérêt qui soutiennent cette affirmation.",
+        "Retourner effectivement l'examen vers les présupposés, le désir ou l'intérêt qui soutiennent cette affirmation : le dire, pas seulement l'annoncer.",
         "Passer de la question de l'origine à celle de la valeur, puis éprouver la possibilité inverse.",
-        "Laisser ouverte la tension qui en résulte, sans verdict réconciliateur ni conclusion artificiellement définitive."
+        "Finir sur le jugement formé. Ne laisser la tension ouverte que si le jugement lui-même est que la question est plus forte que toute réponse."
+      ]
+    },
+    {
+      "id": "P-GD-001",
+      "name": {
+        "fr": "Le marteau",
+        "en": "The hammer",
+        "de": "Der Hammer",
+        "es": "El martillo",
+        "zh": "锤子",
+        "ja": "ハンマー"
+      },
+      "source": "Crépuscule des idoles, avant-propos",
+      "siglum": "GD-Vorwort",
+      "serves": "Le jugement est une attaque : le texte vénère quelque chose qui sonne creux.",
+      "moves": [
+        "Nommer l'idole du texte : la valeur, la notion ou la promesse qu'il vénère sans l'éprouver.",
+        "La frapper, c'est-à-dire la soumettre à une question ou un fait qui fait entendre si elle est creuse.",
+        "Dire sans ménagement ce qui sonne creux, avec un mot du texte comme preuve.",
+        "Dire aussi ce qui résiste au coup, s'il y en a : le marteau sert à ausculter, pas seulement à casser.",
+        "Conclure par un verdict net, en une phrase."
+      ]
+    },
+    {
+      "id": "P-GM-001",
+      "name": {
+        "fr": "Généalogie",
+        "en": "Genealogy",
+        "de": "Genealogie",
+        "es": "Genealogía",
+        "zh": "谱系",
+        "ja": "系譜"
+      },
+      "source": "Généalogie de la morale, avant-propos § 6 ; Humain, trop humain I § 92",
+      "siglum": "MA-92",
+      "serves": "Le jugement porte sur une valeur qu'on croit naturelle et qui a une origine basse, oubliée.",
+      "moves": [
+        "Prendre une valeur que le texte croit naturelle, éternelle ou désintéressée.",
+        "Lui chercher une origine concrète et peu noble : un échange, une dette, une peur, un intérêt de groupe.",
+        "Montrer comment l'oubli de cette origine a rendu la valeur respectable.",
+        "Demander à quoi sert aujourd'hui cette valeur : à une vie qui monte ou à une vie qui s'épuise ?",
+        "Juger : la valeur mérite-t-elle d'être gardée, renversée ou dépassée ?"
+      ]
+    },
+    {
+      "id": "P-ZA-001",
+      "name": {
+        "fr": "L'éloge qui exige",
+        "en": "Praise that demands",
+        "de": "Das fordernde Lob",
+        "es": "El elogio que exige",
+        "zh": "苛求的赞美",
+        "ja": "要求する賞賛"
+      },
+      "source": "Ainsi parlait Zarathoustra I, « De la vertu qui donne »",
+      "siglum": "Za-I-Tugend",
+      "serves": "Le jugement est un éloge : il y a dans le texte une force qui déborde, et elle se trahit encore.",
+      "moves": [
+        "Louer franchement ce qui, dans le texte, déborde et donne, sans formule de politesse.",
+        "Distinguer cette générosité de ce qui, à côté, retient, calcule ou se rassure.",
+        "Exiger davantage : pousser l'auteur vers ce que sa propre force réclame.",
+        "Mettre en garde contre ce qui, dans le même texte, risque de rapetisser cette force.",
+        "Finir sur l'exigence, pas sur un compliment."
+      ]
+    },
+    {
+      "id": "P-ZA-002",
+      "name": {
+        "fr": "Le dernier homme",
+        "en": "The last man",
+        "de": "Der letzte Mensch",
+        "es": "El último hombre",
+        "zh": "末人",
+        "ja": "最後の人間"
+      },
+      "source": "Ainsi parlait Zarathoustra, prologue § 5",
+      "siglum": "Za-I-Vorrede-5",
+      "serves": "Le jugement est un soupçon : le texte cherche le confort, la sécurité ou la fin de l'angoisse.",
+      "moves": [
+        "Repérer dans le texte le désir de confort, de sécurité, de mesure ou de fin de l'angoisse.",
+        "Pousser ce désir jusqu'à sa limite : une humanité qui l'aurait obtenu, et ce qu'elle cesserait de vouloir.",
+        "Faire sentir le mépris de Nietzsche pour cette limite, sans caricaturer l'auteur.",
+        "Séparer ce qui, dans le texte, mérite d'échapper à ce soupçon.",
+        "Conclure par un jugement tranché."
+      ]
+    },
+    {
+      "id": "P-GD-002",
+      "name": {
+        "fr": "L'aphorisme sec",
+        "en": "The dry aphorism",
+        "de": "Der trockene Spruch",
+        "es": "El aforismo seco",
+        "zh": "干脆的箴言",
+        "ja": "乾いた箴言"
+      },
+      "source": "Crépuscule des idoles, « Maximes et pointes »",
+      "siglum": "GD-Sprueche-1",
+      "serves": "Le jugement tient en une phrase, ou le texte ne mérite pas davantage.",
+      "moves": [
+        "Répondre en deux à six phrases au plus.",
+        "Une maxime frappante, tirée du cœur du texte, qui contient le jugement.",
+        "Aucune explication, aucun développement, aucune politesse."
       ]
     }
   ]
