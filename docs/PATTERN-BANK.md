@@ -1,15 +1,18 @@
 # Response pattern bank
 
-Pattern data is stored separately from the code that resolves and applies it:
+The runtime bank is `api/pattern_bank.json`. Each entry has a stable ID, exact source reference, a `serves` field describing the kind of judgment it supports, and a sequence of moves. The six patterns currently available are:
 
-- `api/pattern_bank.json` contains stable IDs, names, source references, and abstract movements.
-- `api/patterns.php` recognizes explicit selection and builds a pattern instruction.
-- `api/chat.php` adds the instruction only after request validation and only for the Nietzsche chat mode.
+| ID | Pattern | Source | Judgment it serves |
+| --- | --- | --- | --- |
+| `P-JGB-001` | Interrogative reversal | *Beyond Good and Evil* §1 | Turns an apparently self-evident value back toward the desire or assumptions behind it. |
+| `P-GD-001` | The hammer | *Twilight of the Idols*, Preface | Tests an admired value that may ring hollow, while noting what withstands the test. |
+| `P-GM-001` | Genealogy | *On the Genealogy of Morality*, Preface §6; *Human, All Too Human* I §92 | Traces a supposedly natural value to a concrete, concealed origin and judges its present use. |
+| `P-ZA-001` | Praise that demands | *Thus Spoke Zarathustra* I, “On the Bestowing Virtue” | Praises an overflowing strength while demanding that it go further. |
+| `P-ZA-002` | The last man | *Thus Spoke Zarathustra*, Prologue §5 | Tests a text's longing for comfort, safety, moderation, or the end of anxiety. |
+| `P-GD-002` | The dry aphorism | *Twilight of the Idols*, “Maxims and Arrows” | Compresses a judgment into a brief, sharp sentence when the material calls for it. |
 
-## Current documented pattern
+## Runtime behavior
 
-`P-JGB-001`, “Questioning reversal,” is based on *Beyond Good and Evil* §1. Its movement starts from an accepted value, examines it, turns the inquiry toward its assumptions, tests a reversal, and leaves a productive tension open. It borrows an argumentative movement, not the source's thesis or wording.
+Nietzsche first reads the submission and forms a judgment. The system then selects the pattern whose `serves` field best fits that judgment; the pattern guides the movement of the answer rather than supplying a doctrine to repeat. The response may end with a clear verdict. Leaving the issue open is no longer a general requirement.
 
-The resolver recognizes a request such as “Use aphorism 1 to comment on my book,” and the stable ID. An explicit negative request should prevent activation. When no pattern is selected, the usual character behavior applies.
-
-Automatic selection of the best pattern for an incoming text is not active in this source snapshot. The 12–15 pattern initial-bank estimate is a design target; it is not the current number of implemented patterns.
+Patterns borrow an organization of thought, not the source passage's doctrine or wording. The bank is a small operational set, not a complete inventory of Nietzsche's ways of thinking. New candidates require source and distinctiveness review before they are activated.
