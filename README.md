@@ -10,9 +10,11 @@ Ask Nietzsche is an open-source conversational project that stages a dialogue wi
 - PHP API code for model requests, attachments, retrieval, pattern selection, and account/session features.
 - The current SQLite retrieval database and the Project Gutenberg text files from which it was assembled.
 - English project, prompt, retrieval, pattern-bank, privacy, and deployment documentation.
-- A square English mobile landing-page announcement visual in `assets/ask-nietzsche-mobile-splash-en.png`.
+- Six square, language-matched campaign visuals in `assets/ask-nietzsche-mobile-splash-{en,fr,de,es,ja,zh}.png`. Each version preserves the same composition and must accompany campaign posts in its corresponding language.
 
 ![Ask Nietzsche mobile landing page — English](assets/ask-nietzsche-mobile-splash-en.png)
+
+Localized variants: [French](assets/ask-nietzsche-mobile-splash-fr.png) · [German](assets/ask-nietzsche-mobile-splash-de.png) · [Spanish](assets/ask-nietzsche-mobile-splash-es.png) · [Japanese](assets/ask-nietzsche-mobile-splash-ja.png) · [Chinese](assets/ask-nietzsche-mobile-splash-zh.png).
 
 ## Current retrieval corpus
 
